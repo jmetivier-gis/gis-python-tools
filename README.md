@@ -39,3 +39,31 @@ Run the script from ArcGIS Pro (Toolbox) or directly in Python with ArcPy.
 ```bash
 python tri_osm.py "C:\Data\OSM" "C:\Data\Output" zoneA.shp zoneB.shp 200m 100m exclusion_zone.shp
 
+
+Resulting structure:
+
+Output/
+ ├── Landuse/
+ ├── Natural/
+ ├── Places/
+ ├── Railways/
+ ├── Waterareas/
+ ├── Waterways/
+ ├── Routes principales.shp
+ ├── Routes secondaires.shp
+ └── Routes tertiaires.shp
+
+```
+
+## 🧑‍💻 Author
+
+Jordan Metivier – GIS analyst & Python/ArcPy developer
+🔗 [GitHub profile link here once ready]
+
+
+## 📜 License
+
+MIT License – free to use, modify and distribute.
+
+
+
