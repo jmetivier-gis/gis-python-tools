@@ -1,8 +1,18 @@
 # Excel Merging → CSV & Shapefile (ArcPy + pandas)
 
 ## 📌 Description
-This tool merges **all `.xlsx` files** from a given folder into a single CSV, then converts it to a **point shapefile** using longitude/latitude columns.  
-The output filenames are **timestamped** via a user-provided date string (e.g., `2025-09-30_AAAA.csv` / `.shp`). The script expects **fixed folders** for inputs and outputs, a **fixed sheet name** (`"AAAA"`), and **fixed coordinate fields** (`"Longitude décimale"`, `"Latitude décimale"`).
+This module provides a Python script (`fusion_xlsx.py`) to **merge multiple Excel files** into a single dataset and export it to both **CSV and Shapefile** formats.  
+
+The script:
+- Reads all `.xlsx` files from a fixed input folder  
+- Uses a fixed sheet name (`"AAAA"`)  
+- Concatenates rows into one combined table  
+- Writes the output to a timestamped CSV and Shapefile  
+- Creates point features based on `Longitude décimale` and `Latitude décimale` columns (WGS84 / EPSG:4326)
+
+Output files are automatically named with the provided date parameter, e.g.:
+- `2025-09-30_AAAA.csv`
+- `2025-09-30_AAAA.shp`
 
 ---
 
@@ -10,13 +20,6 @@ The output filenames are **timestamped** via a user-provided date string (e.g., 
 - **ArcGIS Pro** (ArcPy bundled)  
 - **Python 3.9+**  
 - Python packages: `pandas`, `openpyxl` (engine used by pandas to read `.xlsx`)  
-
-> Example `requirements.txt` at repo root:
-> ```
-> pandas>=2.0.0
-> openpyxl>=3.1.0
-> # arcpy (bundled with ArcGIS Pro)
-> ```
 
 ---
 
