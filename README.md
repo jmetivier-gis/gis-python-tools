@@ -30,9 +30,9 @@ pip install -r requirements.txt
 
 ## 🔧 Modules
 
-- OSM-fclass : Export OSM layers by fclass, apply buffers, exclusions, and categorize roads.
+- OSM sorting & export : Export OSM layers by fclass, apply buffers, exclusions, and categorize roads.
 
-- change-detection → Compare two layers (old vs new), generate reports.
+- Change detection → Compare two layers (old vs new), generate reports.
 
 - excel-ingest → Merge multiple Excel files and convert to CSV/SHAPE.
 
