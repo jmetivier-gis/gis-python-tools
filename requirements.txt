@@ -1,0 +1,11 @@
+# Core Python libraries
+pandas>=2.0.0
+openpyxl>=3.1.0   # engine for reading .xlsx via pandas
+
+# GIS-related
+# arcpy  (NOT pip-installable; comes with ArcGIS Pro)
+# Make sure to run in an ArcGIS Pro Python environment.
+# geopandas (optional, if using outside ArcGIS environment)
+
+# === (optional) Dev tools ===
+# pytest>=7.0       # if you add tests later
