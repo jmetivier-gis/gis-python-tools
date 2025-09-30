@@ -49,7 +49,7 @@ The output filenames are **timestamped** via a user-provided date string (e.g., 
 
 ### From an ArcPy-enabled Python
 ```bash
-python Fusion_xlsx.py 2025-09-30
+python fusion_xlsx.py 2025-09-30
 ```
 ## 📂 Outputs
 
