@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 - Change detection → Compare two layers (old vs new), generate reports.
 
-- excel-ingest → Merge multiple Excel files and convert to CSV/SHAPE.
+- Excel Merging → Merge multiple Excel files and convert to CSV/SHAPE.
 
 Each module has its own README.md with usage examples.
 
