@@ -47,6 +47,6 @@ You are free to use, modify, and share it with attribution.
 ## 👤 Author
 
 Jordan Metivier
-Geospatial Analyst | Python & ArcGIS Automation
+GIS Analyst | Python & ArcGIS Automation
 🔗 [LinkedIn](https://www.linkedin.com/in/jordan-m-52b404a5/)
  | [GitHub](https://github.com/jmetivier-gis/)
