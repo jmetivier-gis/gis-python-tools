@@ -23,13 +23,15 @@ This tool helps streamline repetitive OSM preprocessing tasks for GIS workflows.
 Run the script from ArcGIS Pro (Toolbox) or directly in Python with ArcPy.
 
 ### Parameters
-1. **Input folder**: path to the OSM shapefiles  
-2. **Output folder**: destination for the processed shapefiles  
-3. **Zone A layer**: buffer base for all categories except tertiary roads  
-4. **Zone B layer**: buffer base for tertiary roads only  
-5. **Buffer A distance**  
-6. **Buffer B distance**  
-7. **Exclusion layer** (optional)  
+| Parameter        | Description                                        | Type   |
+|------------------|----------------------------------------------------|--------|
+| Input folder     | Path to the OSM shapefiles                         | Folder |
+| Output folder    | Destination for the processed shapefiles           | Folder |
+| Zone A layer     | Buffer base for all categories except tertiary     | Layer  |
+| Zone B layer     | Buffer base for tertiary roads only                | Layer  |
+| Buffer A dist.   | Distance for Zone A buffer                         | Value  |
+| Buffer B dist.   | Distance for Zone B buffer                         | Value  |
+| Exclusion layer  | Optional layer to exclude from the results         | Layer  |
 
 ---
 
