@@ -37,7 +37,7 @@ Run the script from ArcGIS Pro (Toolbox) or directly in Python with ArcPy.
 
 ## 📂 Example Workflow
 ```bash
-python tri_osm.py "C:\Data\OSM" "C:\Data\Output" zoneA.shp zoneB.shp 200m 100m exclusion_zone.shp
+python osm-sort-export.py "C:\Data\OSM" "C:\Data\Output" zoneA.shp zoneB.shp 200m 100m exclusion_zone.shp
 ```
 
 Resulting structure:
