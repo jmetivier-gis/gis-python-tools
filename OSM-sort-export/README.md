@@ -1,9 +1,7 @@
-# osm-data-tools
-
-# OSM Tri & Export (arcpy)
+# OSM-sort-export (arcpy)
 
 ## 📌 Description
-This repository contains a Python script (`tri_osm.py`) designed to **automatically process and export OpenStreetMap (OSM) shapefiles** by `fclass`.  
+This repository contains a Python script (`osm-sort-export.py`) designed to **automatically process and export OpenStreetMap (OSM) shapefiles** by `fclass`.  
 The script uses **ArcPy** to:
 - Extract unique `fclass` values from OSM layers  
 - Apply spatial filters with **buffers** and **exclusion zones**  
@@ -58,7 +56,7 @@ Output/
 ## 🧑‍💻 Author
 
 Jordan Metivier – GIS analyst & Python/ArcPy developer
-🔗 [GitHub profile link here once ready]
+🔗 [GitHub](https://github.com/jmetivier-gis)
 
 
 ## 📜 License
