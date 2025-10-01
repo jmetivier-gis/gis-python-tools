@@ -18,7 +18,7 @@ It is organized into **modules** (by theme), each containing scripts, examples, 
 
 ### Clone the repo
 ```bash
-git clone https://github.com/<your-username>/gis-python-tools.git
+git clone https://github.com/jmetivier-gis/gis-python-tools.git
 cd gis-python-tools
 ```
 
