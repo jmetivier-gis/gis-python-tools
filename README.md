@@ -7,6 +7,9 @@ The goal is to provide reusable scripts and ArcGIS Pro script tools for data pre
 
 It is organized into **modules** (by theme), each containing scripts, examples, and documentation.  
 
+⚠️ Note: scripts currently use **French variable names and log messages** (e.g. `zone_a`, `Nombre entités`).  
+All documentation, READMEs and usage instructions are provided in **English** for clarity.
+
 ---
 
 ## 🚀 Getting Started
