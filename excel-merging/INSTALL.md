@@ -24,8 +24,8 @@
 
 
 Notes
-• The script reads all .xlsx from a fixed input folder, merges rows (sheet "AAAA"), then writes a timestamped CSV and Shapefile (WGS84/EPSG:4326).
-• If you want to avoid fixed paths, make input/output folders and X/Y fields parameters in a future version.
+- The script reads all .xlsx from a fixed input folder, merges rows (sheet "AAAA"), then writes a timestamped CSV and Shapefile (WGS84/EPSG:4326).
+- If you want to avoid fixed paths, make input/output folders and X/Y fields parameters in a future version.
 
 6 - Click OK to save. The tool appears in your Toolbox.
 
