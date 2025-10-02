@@ -1,4 +1,4 @@
-# 🔧 Installation in ArcGIS Pro (EN)
+# 🔧 Installation in ArcGIS Pro
 
 1 - Open ArcGIS Pro.
 
