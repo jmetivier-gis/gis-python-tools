@@ -25,10 +25,6 @@ gis-python-tools/
 ├─ README.md
 ├─ LICENSE
 ├─ requirements.txt
-├─ .gitignore
-│
-├─ common/
-│ └─ utils.py
 │
 ├─ toolbox/
 │ └─ global_tools.pyt ← single ArcGIS Pro toolbox (3 tools)
@@ -38,27 +34,18 @@ gis-python-tools/
 │ ├─ INSTALL.md
 │ ├─ tools/
 │ │ └─ osm_sort_export.py
-│ ├─ toolbox/
-│ │ └─ osm_tools.pyt
-│ └─ examples/
 │
 ├─ change-detection-tools/
 │ ├─ README.md
 │ ├─ INSTALL.md
 │ ├─ tools/
 │ │ └─ change_detection.py
-│ ├─ toolbox/
-│ │ └─ change_detection_tools.pyt
-│ └─ examples/
 │
 └─ excel-merging-tools/
   ├─ README.md
   ├─ INSTALL.md
   ├─ tools/
   │ └─ fusion_xlsx.py
-  ├─ toolbox/
-  │ └─ excel_tools.pyt
-  └─ examples/
 ```
 
 
