@@ -54,8 +54,8 @@ gis-python-tools/
 | Module | Description | Main script |
 |---------|--------------|--------------|
 | [OSM Sorting & Export](osm-sorting-export/) | Split OSM shapefiles by `fclass`, apply buffers, and exclude zones | [osm_sort_export.py](osm-sorting-export/tools/osm_sort_export.py) |
-| [Change Detection](change-detection-tools/) | Compare two datasets (old/new), compute area deltas and generate reports | [change_detection.py](change-detection-tools/tools/change_detection.py) |
-| [Excel Merging](excel-merging-tools/) | Merge multiple `.xlsx` files, create CSV and Shapefile outputs | [fusion_xlsx.py](excel-merging-tools/tools/fusion_xlsx.py) |
+| [Change Detection](change-detection-tools/) | Compare two datasets (old/new), compute area deltas and generate reports | [change_detection.py](change-detection/tools/change_detection.py) |
+| [Excel Merging](excel-merging-tools/) | Merge multiple `.xlsx` files, create CSV and Shapefile outputs | [fusion_xlsx.py](excel-merging/tools/fusion_xlsx.py) |
 
 ---
 
